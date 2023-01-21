@@ -1,5 +1,6 @@
 <script setup>
 import Home from './components/Home.vue'
+import Programs from './components/Programs.vue'
 import 'boxicons'
 </script>
 
@@ -22,5 +23,14 @@ import 'boxicons'
     </nav>
   </header>
   <Home />
+  <div id="bg-container" class="w-full h-40" >
+  </div>
+  <Programs />
+  
 </template>
+<style>
 
+#bg-container {
+  background-color: #171e21;
+}
+</style>
